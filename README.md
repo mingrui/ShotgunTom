@@ -1,14 +1,14 @@
 # ShotgunTom
 
 lecture notes:
-1. sound and animation
-2. lower enemy health
-3. higher rate of fire
-4. more enemies
-5. big bullets
-6. muzzle flash
-7. faster bullets
-8. less accuracy / small variation in bullet path
+1. sound and animation  
+2. lower enemy health  
+3. higher rate of fire  
+4. more enemies  
+5. big bullets  
+6. muzzle flash  
+7. faster bullets  
+8. less accuracy / small variation in bullet path  
 9. impact effect / bullet impact / graphics
 10. hit animation
 11. enemy knockback
