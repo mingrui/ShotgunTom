@@ -82,6 +82,8 @@ todo:
 30. more more permanence, smoke after explosions  
 31. slow death animation  
 
+questions:  
+1. explosions with physics effect (dead bodies flying around)   
 
 
 
