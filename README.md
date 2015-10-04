@@ -58,7 +58,7 @@ done:
 15. screen shake  
 16. player knockback  
 20. strafe  
-21. more permanence, bullet shells
+21. more permanence, bullet shells  
 -> 24. random explosions on death, 1/3 chance   
 25. faster enemies  
 28. camera kick
