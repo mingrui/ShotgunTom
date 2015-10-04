@@ -62,7 +62,7 @@ done:
 -> 28. camera kick (CameraShake.cs)  
 
 
-todo:
+todo:  
 1. sound and animation  
 4. more enemies  
 6. muzzle flash  
