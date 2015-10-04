@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour {
 	public float shellYSpeed = 2f;
 	public int dmg = 1;
 	public float knockBackForce = 200;
+	public float pauseDur = 0.02f;
 	Rigidbody2D rb2D;
 
 	void Awake(){
@@ -40,10 +41,14 @@ public class Bullet : MonoBehaviour {
 			BasicEnemy basicE = other.GetComponent<BasicEnemy>();
 			basicE.TakeDamage(dmg);
 			basicE.movement.KnockBack(rb2D.velocity.x, knockBackForce);
+			// Flavor: pause game for 0.02 second when enemy hit
+			GameManager.Instance.StartPause(pauseDur);
 		}
 	}
 
 	void OnBecameInvisible(){
 		Destroy(gameObject);
 	}
+
+
 }

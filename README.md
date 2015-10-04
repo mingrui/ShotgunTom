@@ -41,7 +41,7 @@ http://newbquest.com/2014/06/the-art-of-screenshake-with-unity-2d-script/
 
 https://unity3d.com/learn/tutorials/modules/beginner/2d/2d-controllers?playlist=17093
 
-
+http://answers.unity3d.com/questions/9878/freeze-game-using-timetimescale-0-wait-3-secs-and.html
 
 
 my project:  
@@ -56,7 +56,8 @@ done:
 13. camera lerp  
 14. camera position /dynamic / moving to where player "is going" to look at  
 15. screen shake  
-16. player knockback  
+16. player knockback   
+17. sleep game for 20 msc at impact   
 20. strafe  
 21. more permanence, bullet shells  
 -> 24. random explosions on death, 1/3 chance   
@@ -71,10 +72,9 @@ todo:
 6. muzzle flash  
 9. impact effect / bullet impact / graphics  
 10. hit animation  
-17. sleep for 20 msc at impact  
 18. gun delay  
 19. gun kick  
-22. more bass / sound effect  
+22. more bass / sound effect   
 23. super machine guns   
 26. more more enemies  
 27. even higher rate of fire  
