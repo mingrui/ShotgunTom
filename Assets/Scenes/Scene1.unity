@@ -196,6 +196,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11405332, guid: f30897ac9d12e4f42b2b96b18c632bfe, type: 2}
+      propertyPath: shakeAmt
+      value: .0500000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 11405332, guid: f30897ac9d12e4f42b2b96b18c632bfe, type: 2}
+      propertyPath: kickBackAmt
+      value: .25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f30897ac9d12e4f42b2b96b18c632bfe, type: 2}
   m_IsPrefabParent: 0

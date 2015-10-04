@@ -45,17 +45,14 @@ public class FireBullet : MonoBehaviour {
 
 		// Flavor: add camera shake
 		cameraShake.StartShake();
+
+		// Flavor: camera kick
+		int kickDir = (player.facingRight) ? 1 : -1;
+		cameraShake.CameraKick(kickDir);
 	}
 
 	void KnockBack(){
-		int knockBackDir;
-		if(player.facingRight){
-			knockBackDir = -1;
-		}
-		else{
-			knockBackDir = 1;
-		}
-
+		int knockBackDir = (player.facingRight) ? -1 : 1;
 		rb2D.AddForce(new Vector2(transform.position.x + knockBackDir * knockBackForce,0));
 	}
 

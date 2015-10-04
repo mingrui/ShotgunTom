@@ -58,8 +58,11 @@ done:
 15. screen shake  
 16. player knockback  
 20. strafe  
-21. more permanence, bullet shells  
--> 28. camera kick (CameraShake.cs)  
+21. more permanence, bullet shells
+-> 24. random explosions on death, 1/3 chance   
+25. faster enemies  
+28. camera kick
+
 
 
 todo:  
@@ -73,8 +76,6 @@ todo:
 19. gun kick  
 22. more bass / sound effect  
 23. super machine guns   
-24. random explosions on death, 1/3 chance   
-25. faster enemies  
 26. more more enemies  
 27. even higher rate of fire  
 29. bigger explosions  

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class CameraShake : MonoBehaviour {
 	public float shakeAmt = 0.05f;
+	public float kickBackAmt = 0.5f;
 
 	public void StartShake(){
 		InvokeRepeating("Shake", 0, .01f);
@@ -21,13 +22,15 @@ public class CameraShake : MonoBehaviour {
 		}
 	}
 
-	// camera kick, opposite of firing direction
-	void CameraKick(){
-
-	}
-	
 	void StopShaking()
 	{
 		CancelInvoke("Shake");
+	}
+	
+	// camera kick, opposite of firing direction
+	public void CameraKick(int dir){
+		Vector3 withOffSet = Camera.main.transform.position;
+		withOffSet.x += -dir * kickBackAmt;
+		Camera.main.transform.position = withOffSet;
 	}
 }
